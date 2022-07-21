@@ -3,6 +3,8 @@ Some additional files made to automate creating the backtesting file as done in 
 
 Requires PyDrive2 and pygsheets. Will need to create to separate secret json files for both. Follow access instructions on their repo to get required JSON access files for both.
 
+For PyDrive and pygsheets, when setting up API access tokens, set redirect URI's to "http://localhost:8080/". This allow you to only go through authentication prompts once and then afterwards it will grant access automatically.
+
 PyDrive2:
 https://github.com/iterative/PyDrive2
 
